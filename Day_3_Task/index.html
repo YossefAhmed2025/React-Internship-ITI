@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Youssef Ahmed Abdelsalam personal portfolio page">
+    <title>Youssef Ahmed - Portfolio</title>
+</head>
+    <body>
+        <header>
+            <!-- Header and Navigation -->
+            <h1>Youssef Ahmed Abdelsalam</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#courses">Courses</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a> 
+                <a href="#faq">FAQ</a>
+            </nav>
+         </header>
+
+        <main>
+        <!-- About Section -->
+            <h2>About Me</h2>
+             <img src="./assests/images/Youssef_image.jpg" alt="Youssef Ahmed" width="200" height="200">
+
+             <p>
+                Fourth-year Intelligent Systems Engineering student at Helwan National University
+                with strong skills in Java, C++, Python, embedded systems, IoT, AI, and machine learning.
+                Seeking internships to gain practical experience and contribute to innovative technology projects.
+            </p>
+            <hr/>
+
+        <!-- Skills Section -->
+         <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>React</li>
+                <li>Embedded Systems</li>
+                <li>IoT</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+            </ul>
+         
+                <h3>My Learning Journey</h3>
+                <ol>
+                    <li>Learn HTML</li>
+                    <li>Learn CSS</li>
+                    <li>Learn JavaScript</li>
+                    <li>Learn React</li>
+                </ol>
+        </section>
+        <p>
+            I am <strong>passionate about programming</strong> and
+            <em>always eager to learn new technologies</em>.
+            My <mark>main goal is to become a professional developer</mark>.
+        </p>
+        </main>
+        <caption><b>My Courses</b></caption>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Duration</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+             <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>1 Week</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>2 Weeks</td>
+                    <td>Learning</td>
+                </tr>
+
+                <tr>
+                    <td>React</td>
+                    <td>3 Weeks</td>
+                    <td>Learning</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Programming</td>
+                    <td>4 Weeks</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Continuous Learning</td>
+                </tr>
+                </tbody>
+        </table>
+        <hr/>
+
+        <!-- Gallery Section -->
+        <section>
+            <h2>My Gallery</h2>
+            <figure>
+                <img src="./assests/images/car_1.jpg" alt="Car 1" width="300" height="200">
+                <figcaption>Car 1</figcaption>
+            </figure>
+            <figure>
+                <img src="./assests/images/car_2.jpg" alt="Car 2" width="300" height="200">
+                <figcaption>Car 2</figcaption>
+            </figure>
+            <figure>
+                <img src="./assests/images/car_3.jpg" alt="Car 3" width="300" height="200">
+                <figcaption>Car 3</figcaption>
+            </figure>
+            <figure>
+                <img src="./assests/images/car_4.jpg" alt="Car 4" width="300" height="200">
+                <figcaption>Car 4</figcaption>
+            </figure>
+        </section>
+        <hr/>
+
+        <!-- Contact Form -->
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">Phone:</label></td>
+                        <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="dob">Date of Birth:</label></td>
+                        <td><input type="date" id="dob" name="dob" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" rows="4" cols="50" required></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="tobic-name">Name of Tobic:</label></td>
+                        <td>
+                            <select id="tobic-name" name="tobic-name" required>
+                                <option value="option1">internship</option>
+                                <option value="option2">project</option>
+                                <option value="option3">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Preferred Contact Method:</td>
+                        <td>
+                            <label>
+                                <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                                Email
+                            </label>
+
+                            <label>
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                                Phone
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" id="agree" name="agree" required>
+                            <label for="agree">I agree to the terms and conditions</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" id="submit" value="Submit">
+                            <input type="reset" id="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+
+            </fieldset>
+       </form>
+
+        <!-- FAQ Section -->
+        <section>
+                <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What do you study?</summary>
+                <p>I study Intelligent Systems Engineering.</p>
+            </details>
+
+            <details>
+                <summary>What technologies do you use?</summary>
+                <p>I work with Java, C++, Python, HTML, React, AI, IoT, and embedded systems.</p>
+            </details>
+
+            <details>
+                <summary>Are you looking for internships?</summary>
+                <p>Yes, I am looking for internship and training opportunities.</p>
+            </details>
+        </section>
+
+    </main>
+    <hr/>
+    
+        <!-- Footer -->
+        <footer>
+            <address>
+                Email:
+                <a href="mailto:yosefahmed00022@gmail.com">
+                    yosefahmed00022@gmail.com
+                </a>
+                <br>
+                Helwan National University
+            </address>
+
+            <p>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/" target="_blank">GitHub</a>
+            </p>
+
+            <p>
+                &copy; 2026 Youssef Ahmed Abdelsalam
+            </p>
+        </footer>
+
+
+
+    </body>
+</html>
