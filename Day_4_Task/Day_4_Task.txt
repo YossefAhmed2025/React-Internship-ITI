@@ -1,0 +1,39 @@
+HTML Summary
+
+HTML stands for HyperText Markup Language. It is the standard language used to create and structure web pages.
+
+HTML is responsible for the structure and content of a website. It tells the browser how to display text, images, links, forms, tables, and other elements on a web page.
+
+Important things to know about HTML:
+
+1. HTML Document Structure
+   - <!DOCTYPE html> : Defines the document as HTML5.
+   - <html> : The root element of the page.
+   - <head> : Contains information about the page.
+   - <body> : Contains the visible content of the page.
+
+2. Common HTML Tags
+
+   - <h1> to <h6> : Headings.
+   - <p> : Paragraph.
+   - <a> : Creates links.
+   - <img> : Displays images.
+   - <div> : Container used to organize content.
+   - <span> : Used to style or group small parts of text.
+   - <ul> : Unordered list.
+   - <ol> : Ordered list.
+   - <li> : List item.
+   - <table> : Creates a table.
+   - <form> : Creates a form.
+   - <input> : Creates input fields.
+   - <button> : Creates a button.
+
+3. Important HTML Concepts
+
+   - Attributes: Provide additional information about elements, such as id, class, src, href, and alt.
+   - Semantic HTML: Uses meaningful tags such as <header>, <nav>, <main>, <section>, <article>, and <footer>.
+   - Forms: Used to collect information from users.
+   - Links and Images: Used to connect pages and display visual content.
+   - HTML5: The modern version of HTML with many useful semantic and multimedia elements.
+
+In short, HTML is the foundation of every web page. It creates the structure of the page, while CSS is used for styling and JavaScript is used to add interactivity.
