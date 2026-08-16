@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Youssef Ahmed Abdelsalam personal portfolio page">
+    <link rel="stylesheet" href="css/global.css">
     <title>Youssef Ahmed - Portfolio</title>
 </head>
     <body>
@@ -12,28 +13,35 @@
             <!-- Header and Navigation -->
             <h1>Youssef Ahmed Abdelsalam</h1>
             <h2>Web Devloper</h2>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#courses">Courses</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#contact">Contact</a> 
-                <a href="#faq">FAQ</a>
+            <nav class="nav">
+                <a href="#home">Home|</a>
+                <a href="#about">About|</a>
+                <a href="#skills">Skills|</a>
+                <a href="#courses">Courses|</a>
+                <a href="#gallery">Gallery|</a>
+                <a href="#contact">Contact|</a> 
+                <a href="#faq">FAQ|</a>
             </nav>
          </header>
 
         <main>
         <!-- About Section -->
-            <h2>About Me</h2>
-             <img src="./assests/images/Youssef_image.jpg" alt="Youssef Ahmed" width="200" height="200">
+            <!-- About Section -->
+<h2>About Me</h2>
 
-             <p>
-                Fourth-year Intelligent Systems Engineering student at Helwan National University
-                with strong skills in Java, C++, Python, embedded systems, IoT, AI, and machine learning.
-                Seeking internships to gain practical experience and contribute to innovative technology projects.
-            </p>
-            <hr/>
+<img
+    class="profile-image"
+    src="./assests/images/Youssef_image.jpg"
+    alt="Youssef Ahmed"
+    width="200"
+    height="200"
+>
+
+<p id="about">
+    Fourth-year Intelligent Systems Engineering student at Helwan National University
+    with strong skills in Java, C++, Python, embedded systems, IoT, AI, and machine learning.
+    Seeking internships to gain practical experience and contribute to innovative technology projects.
+</p>
 
         <!-- Skills Section -->
          <section>
@@ -58,75 +66,8 @@
                     <li>Learn React</li>
                 </ol>
         </section>
-        <p>
-            I am <strong>passionate about programming</strong> and
-            <em>always eager to learn new technologies</em>.
-            My <mark>main goal is to become a professional developer</mark>.
-        </p>
-        </main>
-        <caption><b>My Courses</b></caption>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Course Name</th>
-                    <th>Duration</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-             <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>1 Week</td>
-                    <td>Completed</td>
-                </tr>
-
-                <tr>
-                    <td>JavaScript</td>
-                    <td>2 Weeks</td>
-                    <td>Learning</td>
-                </tr>
-
-                <tr>
-                    <td>React</td>
-                    <td>3 Weeks</td>
-                    <td>Learning</td>
-                </tr>
-
-                <tr>
-                    <td rowspan="2">Programming</td>
-                    <td>4 Weeks</td>
-                    <td>Completed</td>
-                </tr>
-
-                <tr>
-                    <td colspan="2">Continuous Learning</td>
-                </tr>
-                </tbody>
-        </table>
+        
         <hr/>
-
-        <!-- Gallery Section -->
-        <section>
-            <h2>My Gallery</h2>
-            <figure>
-                <img src="./assests/images/car_1.jpg" alt="Car 1" width="300" height="200">
-                <figcaption>Car 1</figcaption>
-            </figure>
-            <figure>
-                <img src="./assests/images/car_2.jpg" alt="Car 2" width="300" height="200">
-                <figcaption>Car 2</figcaption>
-            </figure>
-            <figure>
-                <img src="./assests/images/car_3.jpg" alt="Car 3" width="300" height="200">
-                <figcaption>Car 3</figcaption>
-            </figure>
-            <figure>
-                <img src="./assests/images/car_4.jpg" alt="Car 4" width="300" height="200">
-                <figcaption>Car 4</figcaption>
-            </figure>
-        </section>
-        <hr/>
-
         <!-- Contact Form -->
         <form>
             <fieldset>
@@ -194,7 +135,7 @@
 
                     <tr>
                         <td></td>
-                        <td>
+                        <td class="contact-button:hover">
                             <input type="submit" id="submit" value="Submit">
                             <input type="reset" id="reset" value="Reset">
                         </td>
@@ -204,26 +145,7 @@
             </fieldset>
        </form>
 
-        <!-- FAQ Section -->
-        <section>
-                <h2>Frequently Asked Questions</h2>
-
-            <details>
-                <summary>What do you study?</summary>
-                <p>I study Intelligent Systems Engineering.</p>
-            </details>
-
-            <details>
-                <summary>What technologies do you use?</summary>
-                <p>I work with Java, C++, Python, HTML, React, AI, IoT, and embedded systems.</p>
-            </details>
-
-            <details>
-                <summary>Are you looking for internships?</summary>
-                <p>Yes, I am looking for internship and training opportunities.</p>
-            </details>
-        </section>
-
+        
     </main>
     <hr/>
     
