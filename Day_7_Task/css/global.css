@@ -1,0 +1,58 @@
+body {
+    background-color: #210a1e;
+}
+
+.card {
+    background-color: rgb(26, 25, 32);
+    text-align: center;
+    margin: 100px auto;
+    width: 60%;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 10%;
+    margin-top: 20px;
+    color:white;
+    border-color: #36022e;
+    box-shadow: 0 5px 15px rgba(243, 239, 239, 0.15);
+}
+
+.card img {
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #36022e;
+    box-shadow: 0 5px 15px rgba(243, 239, 239, 0.15);
+
+}
+
+.card h1 {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card .jobtitle{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card .description{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.card button{
+    background-color: #36022e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #010b17;
+}
