@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../assests/images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    width: 80%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.hero-contant {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-contant p {
+    font-size: 25px;
+}
+
+.hero-contant h1 {
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons .ln-button,
+.buttons .contact-button {
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.buttons .ln-button {
+    background-color: rgb(184, 163, 127);
+}
+
+.buttons .contact-button {
+    background-color: transparent;
+}
+
+.buttons button:hover {
+    background-color: rgb(212, 152, 11);
+}
+
+.about-section {
+    background-color: #f7ead4;
+}
+
+.about {
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about .image {
+    width: 40%;
+}
+
+.about .image img {
+    width: 100%;
+    display: block;
+}
+
+.about-contact {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-contact h2 {
+    font-size: 30px;
+}
+
+.about-contact > p {
+    font-size: 20px;
+    color: #2c2b2b;
+    line-height: 1.5;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feature span {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #161515;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b18f4f;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.feature p {
+    font-size: 17px;
+    color: #302c2c;
+}
+
+.items {
+    width: 100%;
+    margin: auto;
+    padding: 50px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f7ead4;
+}
+
+.itemstitle {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    flex: 0 0 23%;
+    background-color: rgb(145, 126, 86);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+.card p {
+    padding: 0 10px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card button {
+    background-color: #d6ad07;
+    border: 1px solid #6c6907;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #decd7f;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .about {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .about .image {
+        width: 45%;
+    }
+
+    
+    .card {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .about {
+        width: 90%;
+        min-height: auto;
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about .image {
+        width: 100%;
+    }
+
+    
+    .features {
+        width: 100%;
+    }
+
+    .feature p {
+        font-size: 15px;
+    }
+
+    .items {
+        padding: 40px ;
+    }
+
+    .card {
+        flex: 0 0 100%;
+    }
+}
