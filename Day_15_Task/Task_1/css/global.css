@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+    color: white;
+
+    padding: 40px 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+
+.subtitle {
+    text-align: center;
+
+    color: #cccccc;
+
+    margin-bottom: 30px;
+
+    font-size: 18px;
+}
+
+
+.search-container {
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 15px;
+}
+
+
+#searchInput {
+    width: 100%;
+
+    max-width: 700px;
+
+    padding: 15px 20px;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+}
+
+
+.select-container {
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+
+#userSelect {
+    width: 100%;
+
+    max-width: 700px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+
+.recipes-container {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 25px;
+}
+
+
+.card {
+    background: white;
+
+    color: #222;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.card img {
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+
+.card h2 {
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+
+.card p {
+    color: #777;
+
+    font-size: 15px;
+}
