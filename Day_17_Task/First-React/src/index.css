@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+section,
+header {
+  scroll-margin-top: 20px;
+}
