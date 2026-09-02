@@ -1,0 +1,45 @@
+
+.about {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card {
+    width: 500px;
+    padding: 45px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px #ddd;
+}
+
+.about-icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.about-card h1 {
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    color: #777;
+    line-height: 1.7;
+}
+
+.features {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.features div {
+    padding: 15px;
+    background: #f0efff;
+    border-radius: 10px;
+}
+

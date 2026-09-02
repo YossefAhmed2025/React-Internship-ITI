@@ -1,0 +1,22 @@
+
+.not-found {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.not-found h1 {
+    font-size: 100px;
+    color: #6c63ff;
+}
+
+.not-found h2 {
+    margin-bottom: 10px;
+}
+
+.not-found p {
+    color: #777;
+}
+
