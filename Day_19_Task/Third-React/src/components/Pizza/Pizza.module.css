@@ -1,0 +1,46 @@
+
+.pizza {
+    padding: 24px;
+}
+
+.message {
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.error {
+    color: #c0392b;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+
+.item h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+}
+
+@media (max-width: 992px) {
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        grid-template-columns: 1fr;
+    }
+}
